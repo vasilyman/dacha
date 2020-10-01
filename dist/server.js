@@ -9,7 +9,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "d
 // import express from 'express';
 // const app = express();
 var wss = new _ws["default"].Server({
-  port: 3000
+  port: 3009
 });
 var wsHandler = new _wsHandler["default"]();
 wss.on('connection', function (ws) {
